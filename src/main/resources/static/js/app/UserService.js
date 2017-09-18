@@ -18,7 +18,9 @@ angular.module('crudApp').factory('UserService',
             function loadAllUsers() {
                 console.log('Fetching all users');
                 var deferred = $q.defer();
-                $http.get(urls.USER_SERVICE_API)
+                console.log(urls.USER_SERVICE_API);
+                var test1 = 'http://localhost:8889/GenericProject/api/user/';
+                $http.get(test1)
                     .then(
                         function (response) {
                             console.log('Fetched successfully all users');
