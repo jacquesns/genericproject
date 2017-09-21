@@ -9,7 +9,7 @@ import com.websystique.springboot.configuration.JpaConfigurationTest;
 import com.websystique.springboot.controller.AppController;
 import com.websystique.springboot.controller.RestApiController;
 
-
+//funciona o commit aqui???
 @Import(JpaConfigurationTest.class)
 @SpringBootApplication(scanBasePackages={"com.websystique.springboot"})// same as @Configuration @EnableAutoConfiguration @ComponentScan
 public class GenericProject {
