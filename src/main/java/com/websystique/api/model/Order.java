@@ -12,7 +12,7 @@ public class Order implements Serializable{
 	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="SEQ_ORDERS")
 	private Long id;
 
-	@NotEmpty
+	
 	@ManyToOne
 	private User user;
 
